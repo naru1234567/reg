@@ -30,11 +30,8 @@
           <warSourceDirectory>WebContent</warSourceDirectory>
         </configuration>
       </plugin>
-<<<<<<< HEAD
-      <plugin>
-=======
-            <plugin>
->>>>>>> f8da1b832b04a7e33daf3f9856fd9258f86926ad
+      	<plugin>
+            
                 <groupId>org.sonarsource.scanner.maven</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
                 <version>3.4.0.905</version>
@@ -42,7 +39,4 @@
     </plugins>
   </build>
 </project>
-<<<<<<< HEAD
 <!--  This is a test to see where this going -->
-=======
->>>>>>> f8da1b832b04a7e33daf3f9856fd9258f86926ad
