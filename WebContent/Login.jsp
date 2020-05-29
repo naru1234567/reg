@@ -3,9 +3,8 @@
 <head>
 <<<<<<< HEAD
 <title>Test</title>
-=======
 <title>Insert title here</title>
->>>>>>> f8da1b832b04a7e33daf3f9856fd9258f86926ad
+
 </head>
 <script>
 function clearAll(){
