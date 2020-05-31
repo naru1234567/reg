@@ -11,6 +11,16 @@
       <version>3.1.0</version>
       <scope>provided</scope>           <!-- Provided by the Jetty Servlet Container -->
     </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/junit/junit -->
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.12</version>
+    <scope>test</scope>
+</dependency>
+    
+    
   </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -30,8 +40,7 @@
           <warSourceDirectory>WebContent</warSourceDirectory>
         </configuration>
       </plugin>
-      	<plugin>
-            
+      	<plugin>            
                 <groupId>org.sonarsource.scanner.maven</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
                 <version>3.4.0.905</version>
